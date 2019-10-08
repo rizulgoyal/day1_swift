@@ -51,5 +51,26 @@ for i in stride(from: 50, to: 0, by: -5){
 for i in 1...10{
     print("5 * \(i) = \(5*i)")
 }
+var sample = "Rizul Goyal Harpreet Singh Anmol Sharma"
+
+
+sample += " Group 7"
+print(sample)
+print(sample.uppercased())
+print(sample.lowercased())
+print(sample.count)
+print(sample.hasPrefix("Riz"))
+print(sample.hasSuffix("7"))
+print(sample.isEmpty)
+print(sample)
+var test = "aaabbccccdeeeab"
+
+for ik in test
+{
+    if test.contains(ik){
+        
+
+}
+}
 
 

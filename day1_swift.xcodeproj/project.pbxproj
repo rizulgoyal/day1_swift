@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		9B2EDA85234C0DB100F2CD0A /* day1_swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day1_swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2EDA88234C0DB100F2CD0A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B2EDA90234C10F000F2CD0A /* day1_swift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = day1_swift.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +44,7 @@
 			children = (
 				9B2EDA87234C0DB100F2CD0A /* day1_swift */,
 				9B2EDA86234C0DB100F2CD0A /* Products */,
+				9B2EDA8F234C10F000F2CD0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +62,19 @@
 				9B2EDA88234C0DB100F2CD0A /* main.swift */,
 			);
 			path = day1_swift;
+			sourceTree = "<group>";
+		};
+		9B2EDA8F234C10F000F2CD0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B2EDA90234C10F000F2CD0A /* day1_swift.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B2EDA91234C10F000F2CD0A /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +122,12 @@
 			mainGroup = 9B2EDA7C234C0DB100F2CD0A;
 			productRefGroup = 9B2EDA86234C0DB100F2CD0A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9B2EDA91234C10F000F2CD0A /* Products */;
+					ProjectRef = 9B2EDA90234C10F000F2CD0A /* day1_swift.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9B2EDA84234C0DB100F2CD0A /* day1_swift */,
